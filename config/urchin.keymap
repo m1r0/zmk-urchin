@@ -55,19 +55,19 @@
         compatible = "zmk,combos";
 
         // internal-left & external-right thumb keys
-        combo_sym {
+        combo_num {
             timeout-ms = <200>;
             key-positions = <31 33>;
             bindings = <&mo NUM>;
         };
         // external-left & external-right thumb keys
-        combo_sym {
+        combo_fnc {
             timeout-ms = <200>;
             key-positions = <30 33>;
             bindings = <&mo FNC>;
         };
         // both right thumb keys
-        combo_accent {
+        combo_settings {
             timeout-ms = <200>;
             key-positions = <32 33>;
             bindings = <&mo SETTINGS>;
